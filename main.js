@@ -24,6 +24,10 @@ function toggleFox() {
   }
 }
 
+function changeColor() {
+  var listTwo = document.getElementById('listTwo');
+  listTwo.style.color = 'red';
+}
 // Use a CSS selector to identify an element
 var foxImage = document.querySelector('img');
 
@@ -42,8 +46,14 @@ foxImage.onclick = sayOuch;
 // // assign function show fox when button two clicked
 // buttonTwo.onclick = showFox;
 
-// use css ID to identify button two
-var buttonThree = document.getElementById('buttonThree')
+// use css ID to identify button toggle
+var buttonToggle = document.getElementById('buttonToggle')
+
+// assign function hide / show fox when button toggle clicked
+buttonToggle.onclick = toggleFox;
+
+// use css ID to identify button for color change
+var buttonColor = document.getElementById('buttonColor')
 
 // assign function show fox when button two clicked
-buttonThree.onclick = toggleFox;
+buttonColor.onclick = changeColor;

@@ -43,7 +43,7 @@ foxImage.onclick = sayOuch;
 // buttonTwo.onclick = showFox;
 
 // use css ID to identify button two
-var buttonThree = document.getElementById('buttonThree')
+var buttonToggle = document.getElementById('buttonToggle')
 
 // assign function show fox when button two clicked
-buttonThree.onclick = toggleFox;
+buttonToggle.onclick = toggleFox;

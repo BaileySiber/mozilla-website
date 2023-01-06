@@ -33,4 +33,5 @@ img {
   max-width: 30%;
   display: block;
   margin: 0 auto;
+  visibility: visible;
 }
